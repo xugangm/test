@@ -30,9 +30,7 @@
 
 		"isLibraryCompilation": "false",
 
-		"cordovaPlugins": {
-
-			"cordovaPlugin": [
+		"cordovaPlugins": [
 
 				{
 
@@ -66,9 +64,7 @@
 
 				}
 
-			]
-
-		},
+			],
 
 		"gitUrl": "https://gogs.yonyoucloud.com/caiyi/mtl.git"
 
