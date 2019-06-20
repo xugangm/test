@@ -1,37 +1,73 @@
 {
-	"config": {
-		"appName": "demo",
-		"packageName": "com.yonyou.demo",
-		"projectName": "demo",
-		"versionName": "1.0.0",
-		"versionCode": "100",
-		"versionBuild": "1.0.0",
-		"startPage": "index.html",
-		"debuggerEnable": "false",
-		"reinforcement": "false",
-		"sandbox": "false",
-		"targetDevice": "handset",
-		"statusBarTheme": "summer.Animations.NoTitleBar.FullScreen",
-		"androidMinSdkVersion": "16",
-		"isLibraryCompilation": "false",
-		"cordovaPlugins": [
-			{
-				"name": "cordova-plugin-compat",
-				"type": "cordova"
-			},
-			{
-				"name": "cordova-plugin-file",
-				"type": "cordova"
-			},
-			{
-				"name": "cordova-plugin-http",
-				"type": "cordova"
-			},
-			{
-				"name": "cordova-plugin-camera",
-				"type": "cordova"
-			}
-		],
-		"gitUrl": "https://gogs.yonyoucloud.com/caiyi/mtl.git"
-	}
-}
+
+	"config": {
+
+		"appName": "demo_appName",
+
+		"packageName": "com.yonyou.demo",
+
+		"projectName": "demo_projectName",
+
+		"versionName": "1.0.0",
+
+		"versionCode": "100",
+
+		"versionBuild": "1.0.0",
+
+		"startPage": "index.html",
+
+		"debuggerEnable": "false",
+
+		"reinforcement": "false",
+
+		"sandbox": "false",
+
+		"targetDevice": "handset",
+
+		"statusBarTheme": "summer.Animations.NoTitleBar.FullScreen",
+
+		"androidMinSdkVersion": "16",
+
+		"isLibraryCompilation": "false",
+
+		"cordovaPlugins": [
+
+			{
+
+				"name": "cordova-plugin-compat",
+
+				"type": "cordova"
+
+			},
+
+			{
+
+				"name": "cordova-plugin-file",
+
+				"type": "cordova"
+
+			},
+
+			{
+
+				"name": "cordova-plugin-http",
+
+				"type": "cordova"
+
+			},
+
+			{
+
+				"name": "cordova-plugin-camera",
+
+				"type": "cordova"
+
+			}
+
+		],
+
+		"gitUrl": "https://gogs.yonyoucloud.com/caiyi/mtl.git"
+
+	}
+
+}
