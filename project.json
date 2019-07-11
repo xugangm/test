@@ -1,73 +1,45 @@
 {
-
-	"config": {
-
-		"appName": "demo_appName",
-
-		"packageName": "com.yonyou.demo",
-
-		"projectName": "demo_projectName",
-
-		"versionName": "1.0.0",
-
-		"versionCode": "100",
-
-		"versionBuild": "1.0.0",
-
-		"startPage": "index.html",
-
-		"debuggerEnable": "false",
-
-		"reinforcement": "false",
-
-		"sandbox": "false",
-
-		"targetDevice": "handset",
-
-		"statusBarTheme": "summer.Animations.NoTitleBar.FullScreen",
-
-		"androidMinSdkVersion": "16",
-
-		"isLibraryCompilation": "false",
-
-		"cordovaPlugins": [
-
-			{
-
-				"name": "cordova-plugin-compat",
-
-				"type": "cordova"
-
-			},
-
-			{
-
-				"name": "cordova-plugin-file",
-
-				"type": "cordova"
-
-			},
-
-			{
-
-				"name": "cordova-plugin-http",
-
-				"type": "cordova"
-
-			},
-
-			{
-
-				"name": "cordova-plugin-camera",
-
-				"type": "cordova"
-
-			}
-
-		],
-
-		"gitUrl": "https://gogs.yonyoucloud.com/caiyi/mtl.git"
-
-	}
-
-}
+	"config": {
+		"appName": "ssss",
+		"packageName": "com.yonyou.ssss",
+		"bundleID": "com.yonyou.uap.mobile5",
+		"projectName": "ssss",
+		"versionName": "1.0.0",
+		"versionCode": "100",
+		"versionBuild": "1.0.0",
+		"startPage": "welcome/index.html",
+		"debuggerEnable": "false",
+		"reinforcement": "false",
+		"sandbox": "false",
+		"targetDevice": "handset",
+		"statusBarTheme": "summer.Animations.NoTitleBar.FullScreen",
+		"androidMinSdkVersion": "19",
+		"isLibraryCompilation": "false",
+		"ddAppCode": "dingnlb2wikil7pldytf",
+		"wxAppCode": "dingnlb2wikil7pldytf",
+		"cordovaPlugins": [
+			{
+				"name": "mtl-plugin-faceverify",
+				"type": "cordova"
+			},
+			{
+				"name": "mtl-plugin-terminal",
+				"type": "cordova"
+			},
+			{
+				"name": "mtl-plugin-umeng",
+				"type": "cordova"
+			},
+			{
+				"name": "mtl-plugin-vui",
+				"type": "cordova",
+				"parameters": [
+					"APPID=11152975",
+					"APIKEY=AtWb2xKCTZqnCOnYIovoXaqF",
+					"SECRETKEY=iBzBh459NnqViqaLQUvNF88xi2dqj0U1"
+				]
+			}
+		],
+		"gitUrl": "https://gogs.yonyoucloud.com/caiyi/mtl.git"
+	}
+}
